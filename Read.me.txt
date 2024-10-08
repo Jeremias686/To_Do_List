@@ -1,0 +1,51 @@
+# To-Do List Application
+
+## Project Overview
+
+This project is a simple yet efficient **To-Do List application** that allows users to manage and organize their tasks. The application supports essential functionalities like creating, reading, updating, and deleting tasks (CRUD). Users can sign up and log in to their personalized account, add tasks, categorize them, and mark them as completed. Additionally, users receive daily motivational productivity tips fetched from an external API to help them stay focused.
+
+## Features
+
+- **User Authentication**: Sign up and log in using secure authentication (JWT).
+- **Task Management**: Add, edit, delete, and view tasks with deadlines and priorities.
+- **Task Completion**: Mark tasks as complete and filter between pending and completed tasks.
+- **Daily Productivity Tips**: Fetch and display daily motivational quotes/tips from an external API.
+
+## External API
+
+This project utilizes the **[ZenQuotes API](https://zenquotes.io/)** to fetch motivational quotes that are displayed daily on the home screen.
+
+## Tech Stack
+
+### Front-End:
+- **React.js**: For building the user interface.
+- **Tailwind CSS**: For a responsive and modern design.
+
+### Back-End:
+- **Node.js**: For handling server-side operations.
+- **Express.js**: For routing and handling API requests.
+
+### Database:
+- **MongoDB**: To store user data and task information.
+
+### API:
+- **ZenQuotes API**: For fetching daily motivational quotes.
+
+### Other Technologies:
+- **JWT (JSON Web Token)**: For user authentication.
+- **Mongoose**: For MongoDB object modeling.
+- **Axios**: For handling HTTP requests, especially for fetching external API data.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+- Ensure you have **Node.js** and **npm** installed on your machine.
+- Set up a MongoDB instance (either locally or using a cloud service like [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)).
+
+### Steps:
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Jeremias686/To_Do_List.git
