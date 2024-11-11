@@ -34,7 +34,6 @@ This external service provides current weather information based on latitude and
 - **Axios**: For handling HTTP requests, especially for fetching external API data.
 
 ## Installation
-
 To run this project locally, follow these steps:
 
 ### Prerequisites
